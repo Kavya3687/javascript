@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>VendingMachine</title>
+<script type="text/javascript">
+	function printBiscuit(name) {
+
+		
+		if (name == "Dairymilk") {
+			var rate=20;
+			var quantity=document.getElementById("name6").value;
+			
+			var total=rate*quantity;
+			document.getElementById("print6").innerHTML=total;
+
+		}
+		if (name == "Badammilk") {
+			var rate=20;
+			var quantity=document.getElementById("name7").value;
+			
+			var total=rate*quantity;
+			document.getElementById("print7").innerHTML=total;
+	}
+		if (name == "Bourbon") {
+			var rate=20;
+			var quantity=document.getElementById("name8").value;
+			
+			var total=rate*quantity;
+			document.getElementById("print8").innerHTML=total;
+
+		}
+		if (name == "Cake") {
+			var rate=20;
+			var quantity=document.getElementById("name9").value;
+			
+			var total=rate*quantity;
+			document.getElementById("print9").innerHTML=total;
+
+		}
+		if (name == "Coke") {
+			var rate=20;
+			var quantity=document.getElementById("name10").value;
+			
+			var total=rate*quantity;
+			document.getElementById("print10").innerHTML=total;
+		}
+		if (name == "Oreo") {
+			var rate=20;
+			var quantity=document.getElementById("name11").value;
+			
+			var total=rate*quantity;
+			document.getElementById("print11").innerHTML=total;
+
+		}
+		if (name == "Maaza") {
+			var rate=10;
+			var quantity=document.getElementById("name12").value;
+			
+			var total=rate*quantity;
+			document.getElementById("print12").innerHTML=total;
+		}
+		if (name == "Lays") {
+			var rate=20;
+			var quantity=document.getElementById("name13").value;
+			
+			var total=rate*quantity;
+			document.getElementById("print13").innerHTML=total;
+		}
+		if (name == "Kurkure") {
+			var rate=20;
+			var quantity=document.getElementById("name14").value;
+			
+			var total=rate*quantity;
+			document.getElementById("print14").innerHTML=total;
+		}
+		if (name == "Kitkat") {
+			var rate=20;
+			var quantity=document.getElementById("name15").value;
+			
+			var total=rate*quantity;
+			document.getElementById("print15").innerHTML=total;
+		}
+		if (name == "Jimjam") {
+			var rate=20;
+			var quantity=document.getElementById("name16").value;
+			
+			var total=rate*quantity;
+			document.getElementById("print16").innerHTML=total;
+		}
+		if (name == "Ferrero") {
+			var rate=20;
+			var quantity=document.getElementById("name17").value;
+			
+			var total=rate*quantity;
+			document.getElementById("print17").innerHTML=total;
+
+		}
+		if (name == "Parleg") {
+			var rate=20;
+			var quantity=document.getElementById("name18").value;
+			
+			var total=rate*quantity;
+			document.getElementById("print18").innerHTML=total;
+		}
+		
+	}
+</script>
+<style>
+img{
+width:200px;
+height:200px;
+}
+
+button {
+	margin-left: 50px;
+}
+
+td {
+
+	border-color: black;
+}
+</style>
+</head>
+<body>
+	<table>
+		
+		<tr>
+			<td><img src="images/dairymilk.jpg">
+				<button onclick="printBiscuit('Dairymilk')">Dairymilk</button><input type="number" placeholder="Quantity" id="name6">
+					<p id="print6"></p>
+					</td>        
+			<td><img src="images/badammilk.jpg">
+				<button onclick="printBiscuit('Badammilk')">Badammilk</button><input type="number" placeholder="Quantity" id="name7">
+					<p id="print7"></p>
+					</td>
+			<td><img src="images/bourbon.jpg">
+				<button onclick="printBiscuit('Bourbon')">Bourbon</button>
+					<input type="number" placeholder="Quantity" id="name8">
+					<p id="print8"></p>
+					</td>
+			<td><img src="images/cake.jpg">
+				<button onclick="printBiscuit('Cake')">Cake</button><input type="number" placeholder="Quantity" id="name9">
+					<p id="print9"></p>
+					</td>
+			<td><img src="images/coke.jpg">
+				<button onclick="printBiscuit('Coke')">Coke</button><input type="number" placeholder="Quantity" id="name10">
+					<p id="print10"></p>
+					</td>
+		</tr>
+		<tr>
+			<td><img src="images/oreo.jpg">
+				<button onclick="printBiscuit('Patanjali biscuit')">Patanjali
+					biscuit</button><input type="number" placeholder="Quantity" id="name11">
+					<p id="print11"></p>
+					</td>
+			<td><img src="images/maaza.jpg">
+				<button onclick="printBiscuit('Oreo')">Oreo</button><input type="number" placeholder="Quantity" id="name12">
+					<p id="print12"></p>
+					</td>
+			<td><img src="images/lays.jpg">
+				<button onclick="printBiscuit('Lays')">Lays</button><input type="number" placeholder="Quantity" id="name13">
+					<p id="print13"></p>
+					</td>
+			<td><img src="images/kurkure.jpg">
+				<button onclick="printBiscuit('Kurkure')">Kurkure</button><input type="number" placeholder="Quantity" id="name14">
+					<p id="print14"></p>
+					</td>
+			<td><img src="images/kitkat.jpg">
+				<button onclick="printBiscuit('Kitkat')">Kitkat</button>
+					<input type="number" placeholder="Quantity" id="name15">
+					<p id="print15"></p>
+					</td>
+		</tr>
+		<tr>
+			<td><img src="images/jimjam.jpg">
+				<button onclick="printBiscuit('Jimjam')">Jimjam</button><input type="number" placeholder="Quantity" id="name16">
+					<p id="print16"></p>
+					</td>
+			<td><img src="images/ferrero.jpg">
+				<button onclick="printBiscuit('Ferrero')">Ferrero</button><input type="number" placeholder="Quantity" id="name17">
+					<p id="print17"></p>
+					</td>
+			<td><img src="images/parleg.jpg">
+				<button onclick="printBiscuit('Parleg')">Parleg</button><input type="number" placeholder="Quantity" id="name18">
+					<p id="print18"></p>
+					</td>
+			
+		</tr>
+		</table>
+</html>
